@@ -1,7 +1,7 @@
 {
   "name": "vuetify3-loading",
   "description": "Extends vuetify3 fullscreen loading",
-  "version": "0.0.14",
+  "version": "0.0.15",
   "type": "module",
   "files": [
     "dist"
@@ -21,7 +21,6 @@
     "preview": "vite preview"
   },
   "peerDependencies": {
-    "vue": "^3.2.45",
     "vuetify": "^3.1.1"
   },
   "devDependencies": {
