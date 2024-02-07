@@ -21,7 +21,7 @@ yarn add vuetify3-loading
 
 ```javascript
 import loading from "vuetify3-loading"
-app.use(confirm)
+app.use(loading)
 ```
 ....
 
