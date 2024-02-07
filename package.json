@@ -1,7 +1,7 @@
 {
   "name": "vuetify3-loading",
   "description": "Extends vuetify3 fullscreen loading",
-  "version": "0.0.13",
+  "version": "0.0.14",
   "type": "module",
   "files": [
     "dist"
@@ -32,7 +32,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/CasonMo/vuetify3-confirm.git"
+    "url": "git+https://github.com/CasonMo/vuetify3-loading.git"
   },
   "author": "beixian",
   "license": "MIT",
@@ -41,13 +41,13 @@
     "vue",
     "vuetify 3",
     "vue 3",
-    "confirm",
+    "loading",
     "dialog"
   ],
   "bugs": {
-    "url": "https://github.com/CasonMo/vuetify3-confirm/issues"
+    "url": "https://github.com/CasonMo/vuetify3-loading/issues"
   },
-  "homepage": "https://github.com/CasonMo/vuetify3-confirm#readme",
+  "homepage": "https://github.com/CasonMo/vuetify3-loading#readme",
   "dependencies": {
     "vue": "3.2.26"
   }
