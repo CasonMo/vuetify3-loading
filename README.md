@@ -20,6 +20,7 @@ yarn add vuetify3-loading
 ## vuetify 3
 
 ```javascript
+import "vuetify3-loading/dist/style.css"
 import loading from "vuetify3-loading"
 app.use(loading)
 ```

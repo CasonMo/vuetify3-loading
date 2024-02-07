@@ -1,8 +1,14 @@
 <script setup>
 import {getCurrentInstance, ref} from 'vue'
 const {proxy} = getCurrentInstance()
-proxy.$loading.show()
-// proxy.$loading.hide()
+
+function handleShow() {
+  proxy.$loading.show()
+}
+
+function handleHide() {
+  proxy.$loading.hide()
+}
 
 let range = ref({ start: null, end: null })
 
@@ -11,6 +17,8 @@ let range = ref({ start: null, end: null })
 
 <template>
   <v-app id="app">
+    <button style="z-index: 99999" @click="handleShow">show button</button>
+    <button style="z-index: 99999" @click="handleHide">hide button</button>
   </v-app>
 </template>
 
