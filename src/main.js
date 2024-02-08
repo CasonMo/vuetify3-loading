@@ -9,4 +9,4 @@ import loading from "../lib/main.js";
 
 const vuetify = createVuetify({ components: { VApp } })
 
-createApp(App).use(vuetify).use(loading).mount('#app')
+createApp(App).use(vuetify).use(loading,{loader:'rotate'}).mount('#app')

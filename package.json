@@ -1,7 +1,7 @@
 {
   "name": "vuetify3-loading",
   "description": "Extends vuetify3 fullscreen loading",
-  "version": "0.0.18",
+  "version": "0.0.19",
   "type": "module",
   "files": [
     "dist"
